@@ -18,7 +18,7 @@ code {
 
 :root {
   --font-family: 'Poppins', sans-serif;
-  --gradient-text: linear-gradient(90deg, rgb(3, 29, 34) 0%, rgb(11, 64, 56) 56%, rgb(4, 54, 37) 100%);
+  --gradient-text: linear-gradient(90deg, rgb(44, 176, 202) 0%, rgb(25, 246, 213) 56%, rgb(10, 128, 89) 100%);
   /* --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%); */
   --color-footer : #002a36;
   

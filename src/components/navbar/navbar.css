@@ -4,6 +4,7 @@
     align-items: center;
 
     padding: 2rem 6rem;
+    background: var(--color-footer);
 }
 
 .ehb__navbar-links {
@@ -74,6 +75,7 @@ cursor: pointer;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
+    z-index: 1;
 
     text-align: end;
     background: var(--color-footer);

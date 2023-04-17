@@ -9,12 +9,8 @@ const Header = () => {
     <div className="ehb__header section__padding" id="home">
       <div className="ehb__header-content">
         <h1 className="gradient__text">engineerHUB</h1>
-        <p>For the Students, Industries & Campus.</p>        
-        {/* <div className="ehb__header-container"> */}
-            {/* <div className="ehb__header-container_groupA">
-              <Article imgURL={image03} participants="18+" title="Industries" />
-            </div> */}
-            <div className="ehb__header-container_groupB">
+        <p>For the Students, Industries & Campus.</p>    
+            <div className="ehb__header-container">
               <Article imgURL={image01} participants="50K+" title="Students" />
               <Article imgURL={image02} participants="800+" title="Campus" />
               <Article imgURL={image03} participants="18+" title="Industries" />

@@ -5,10 +5,6 @@
   scroll-behavior: smooth;
 }
 
-body {
-  background: #141414;
-}
-
 a {
   color: unset;
   text-decoration: none;
@@ -41,17 +37,17 @@ a {
 }
 
 .section__padding {
-  padding: 4rem 6rem;
+  padding: 1rem 6rem;
 }
 
-@media screen and (max-width: 700px) {
+/* @media screen and (max-width: 700px) {
   .section__padding {
     padding: 4rem;
   }
-}
+} */
 
 @media screen and (max-width: 550px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 1rem 2rem;
   }
 }
