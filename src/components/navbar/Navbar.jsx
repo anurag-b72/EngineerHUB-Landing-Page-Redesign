@@ -16,6 +16,12 @@ function Menu () {
   )
 }
 
+function alertFunction ()  {
+  return (
+    alert("Button clicked, alert message displayed!")
+  )
+}
+
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -30,7 +36,7 @@ const Navbar = () => {
         </div> 
       </div>
       <div className="ehb__navbar-sign">
-        <button type="button">Sign up</button>
+        <button type="button" onClick={alertFunction}>Sign up</button>
       </div>
       <div className="ehb__navbar-menu">
         {toggleMenu

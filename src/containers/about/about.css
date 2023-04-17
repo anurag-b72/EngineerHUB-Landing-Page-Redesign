@@ -59,7 +59,21 @@
     margin-bottom: 1rem;
   }
   
-  @media screen and (max-width: 950px) {
+  @media screen and (max-width: 1050px) {
+    .ehb__about-image {
+      position: relative;
+      right: 40px;
+    }
+    .ehb__about-image img {
+      width: 35vw;
+    }
+    .ehb__about-content {
+      position: relative;
+      left: 70px;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
       .ehb__about {
           flex-direction: column;
       }
@@ -75,12 +89,22 @@
   
   @media screen and (max-width: 550px) {
     .ehb__about-image img {
-      width: 80vw;
+      width: 70vw;
     }
 
     .ehb__about-container h1 {
       position: relative;
       left: 50px;
+    }
+
+    .ehb__about-image {
+      position: relative;
+      left: 20px;
+    }
+    
+    .ehb__about-content {
+      position: relative;
+      left: 10px;
     }
   }
 

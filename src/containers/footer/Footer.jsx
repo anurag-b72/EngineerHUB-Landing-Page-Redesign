@@ -2,7 +2,11 @@ import React, { useState } from 'react'
 import './footer.css'
 import ehbLogo from "../../assets/logo.png"
 
-<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+function alertFunction ()  {
+  return (
+    alert("Button clicked, alert message displayed!")
+  )
+}
 
 const Footer = () => {
 
@@ -10,7 +14,7 @@ const Footer = () => {
   const greenColor = "#ADE792";
 
   const [hoverEffect, setHoverEffect] = useState(false);
-  
+
   function handleMouseOver () {
     setHoverEffect(true);
   }
@@ -24,7 +28,7 @@ const Footer = () => {
         <h1 className="gradient__text">Powered by engineerHUB</h1>
       </div>
 
-      <div className="ehb__footer-btn">
+      <div className="ehb__footer-btn" onClick={alertFunction}>
         <p>Register Here</p>
       </div>
 
