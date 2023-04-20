@@ -52,7 +52,7 @@
   left: 2rem;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
   .ehb__header {
     display: flex;
     flex-direction: column;

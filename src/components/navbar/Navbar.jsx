@@ -49,7 +49,7 @@ const Navbar = () => {
               <Menu />
               <div className="ehb__navbar-menu_container-links-sign">
                 {/* <p>Sign in</p> */}
-                <button type="button">Sign up</button>
+                <button type="button" onClick={alertFunction}>Sign up</button>
               </div>
             </div>
           </div>
